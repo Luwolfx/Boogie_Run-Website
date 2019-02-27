@@ -1,9 +1,10 @@
+/*CORES DE FUNDO*/
 .cordefundo-preta{
   background-color: #000;
 }
 
 
-
+/*TAMANHOS DE FONTE*/
 .fonte-10{
   font-size: 10px;
 }
@@ -45,4 +46,18 @@
 }
 .fonte-100{
   font-size: 100px;
+}
+
+/*MORE ROUNDED OPTIONS*/
+.rounded-top-left{
+  border-top-left-radius: 4px;
+}
+.rounded-top-right{
+  border-top-right-radius: 4px;
+}
+.rounded-bottom-left{
+  border-bottom-left-radius: 4px;
+}
+.rounded-bottom-right{
+  border-bottom-right-radius: 4px;
 }
