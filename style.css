@@ -1,6 +1,41 @@
+/*OUTROS*/
+.LinkNormal{
+  text-decoration: none;
+
+}
+a:active{
+  text-decoration: none;
+  color: #898989;
+}
+a:link{
+  text-decoration: none;
+  color: #898989;
+}
+a:visited{
+  text-decoration: none;
+  color: #898989;
+}
+a:hover{
+  text-decoration: none;
+  color: #FFF;
+}
+.copyright-text{
+  line-height: 500px;
+  text-align: center;
+}
+
 /*CORES DE FUNDO*/
 .cordefundo-preta{
   background-color: #000;
+}
+.cordefundo-transparente{
+  background-color: transparent;
+}
+
+/*ICONES*/
+.icone-social{
+  height: 20px;
+  width: 20px;
 }
 
 
