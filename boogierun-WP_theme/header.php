@@ -25,7 +25,7 @@ Desenvolvedor: Lucas Gomes Palmieri
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="dist/css/lightbox.min.css">
     <!-- MEUS CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://www.boogierun.tk/wp-content/themes/boogierun-WP_theme/style.css">
 
   </head>
 
@@ -40,15 +40,11 @@ Desenvolvedor: Lucas Gomes Palmieri
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item <?php if(is_home()):echo ""; else: echo "active"; endif; ?>">
             <a class="nav-link" href="/">Inicio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/noticias">Notícias e Novidades</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Mídias</a>
+          <li class="nav-item <?php if(is_home()):echo "active"; endif; ?>">
+            <a class="nav-link" href="/noticias/">Notícias e Novidades</a>
           </li>
         </ul>
       </div>
