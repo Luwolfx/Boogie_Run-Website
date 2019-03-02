@@ -33,7 +33,7 @@ Desenvolvedor: Lucas Gomes Palmieri
 
     <!-- INICIO DA NAVBAR -->
     <nav class="col-12 navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Boogie Run</a>
+      <a class="navbar-brand" href="/"><img src="http://www.boogierun.tk/wp-content/themes/boogierun-WP_theme/imgs/olhos.png" alt="Logo" style="height:30px;"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,6 +46,15 @@ Desenvolvedor: Lucas Gomes Palmieri
           <li class="nav-item <?php if(is_home()):echo "active"; endif; ?>">
             <a class="nav-link" href="/noticias/">Notícias e Novidades</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link" href=" <?php if( is_user_logged_in() ) {echo '/wp-admin';} else {echo wp_login_url( $redirect );} ?> ">
+
+				         <?php global $current_user; wp_get_current_user(); ?>
+				         <?php if ( is_user_logged_in() ) { echo $current_user->display_name . "\n"; }
+					       else { echo 'Login'; } ?>
+
+				      </a>
+            </li>
         </ul>
       </div>
     </nav>

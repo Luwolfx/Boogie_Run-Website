@@ -49,9 +49,8 @@
 
 
     <div class="col-12 col-sm-12 col-md-12 col-lg-4 pl-2 pr-2 mt-2 mb-4">
-
-      <div class="cordefundo-cinzachumbo" style="height: 800px;">
-
+      <div class="cordefundo-cinzachumbo pt-2 pb-2 pl-3 pr-3">
+        <?php get_sidebar(); ?>
       </div>
     </div>
 

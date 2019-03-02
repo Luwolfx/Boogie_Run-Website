@@ -74,6 +74,9 @@ a:hover{
 .cordetexto-cinzaescuro{
   color: #595959;
 }
+.cordeborda-cinzaescuro{
+  border-color: #595959;
+}
 
 /*ICONES*/
 .icone-social{
