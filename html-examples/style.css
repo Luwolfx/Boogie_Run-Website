@@ -1,3 +1,14 @@
+/*
+Theme Name: Boogie Run Game (Version: 0.1)
+Theme URI: www.boogierun.tk
+Author: Lucas Gomes Palmieri
+Author URI: www.gomesgames.tk
+Description: Tema utilizado no site Boogie Run.
+Version: 0.1
+Tags: Boogie Run, Website, Estilo, Pessoal, Jogo, Infinity Runner, Comédia, Terror, Jogo Digital
+*/
+
+
 /*OUTROS*/
 .LinkNormal{
   text-decoration: none;
@@ -33,7 +44,7 @@ a:hover{
   height: 100px;
 }
 .imagempostagem{
-  height: 500px;
+
 }
 .titulodapostagem{
   color: #d2d2d2;
@@ -63,6 +74,9 @@ a:hover{
 .cordetexto-cinzaescuro{
   color: #595959;
 }
+.cordeborda-cinzaescuro{
+  border-color: #595959;
+}
 
 /*ICONES*/
 .icone-social{
@@ -70,8 +84,10 @@ a:hover{
   width: 20px;
 }
 
-
 /*TAMANHOS DE FONTE*/
+.fonte-auto{
+  font-size: 1.05vw;
+}
 .fonte-10{
   font-size: 10px;
 }
@@ -89,6 +105,9 @@ a:hover{
 }
 .fonte-20{
   font-size: 20px;
+}
+.fonte-25{
+  font-size: 25px;
 }
 .fonte-30{
   font-size: 30px;

@@ -84,8 +84,10 @@ a:hover{
   width: 20px;
 }
 
-
 /*TAMANHOS DE FONTE*/
+.fonte-auto{
+  font-size: 1.05vw;
+}
 .fonte-10{
   font-size: 10px;
 }
